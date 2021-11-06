@@ -20,7 +20,3 @@ Solidity has denomination modifiers for `uint`s `wei` and `ether`.
 if you define `uint oneEther = 1 ether`, value of `oneEther` will be translated internally to `10^18`.
 
 All transaction fees and payments on ethereum happen in the smallest denomination that is a wei. it is not possible to have a smaller denomination than `1 wei`. you can't have `0.1 wei`.
-
-```
-run testcases 05.sh
-```
